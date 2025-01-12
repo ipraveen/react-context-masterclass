@@ -1,12 +1,15 @@
 import BookList from './BookList';
-import books from './data.json';
+import books from '../data/books.json';
 
-export default function BookManager() {
+interface Props {
+    user: User;
+}
+
+export default function BookManager({ user }: Props) {
     return (
         <main>
             <div className="container">
-                {' '}
-                <BookList books={books} />
+                <BookList books={books} user={user} />
             </div>
         </main>
     );

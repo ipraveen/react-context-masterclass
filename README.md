@@ -1,50 +1,13 @@
-# React + TypeScript + Vite
+# React Context Masterclass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the React Context Masterclass! This course is designed to take your React skills to the next level by diving deep into the powerful Context API. Whether you're a seasoned developer or just getting started with React, this masterclass will provide you with the knowledge and tools to manage state more efficiently and build scalable applications.
 
-Currently, two official plugins are available:
+In this masterclass, you'll learn:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The fundamentals of React Context and how it compares to other state management solutions.
+- Why we need React Context and when to use over standard React Data management? 
+- How to create and use Context Providers and Consumers.
+- Best practices for structuring your application with Context.
+- Advanced techniques for optimizing performance and avoiding common pitfalls.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+By the end of this course, you'll have a solid understanding of how to leverage React Context to create dynamic, responsive, and maintainable applications. Let's get started on this exciting journey to mastering React Context! 🚀
