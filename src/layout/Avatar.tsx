@@ -1,8 +1,12 @@
-interface Props {
-    user: User;
-}
+// interface Props {
+//     user: User;
+// }
 
-export default function Avatar({ user }: Props) {
+import { useUser } from '../contexts/user-context/useUser';
+
+export default function Avatar() {
+    const user = useUser();
+
     return (
         <div className="avatar todo">
             <img src={user.avatar}></img>

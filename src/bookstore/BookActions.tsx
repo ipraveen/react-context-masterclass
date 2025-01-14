@@ -1,8 +1,12 @@
-interface Props {
-    user: User;
-}
+// interface Props {
+//     user: User;
+// }
 
-export default function BookActions({ user }: Props) {
+import { useUser } from '../contexts/user-context/useUser';
+
+export default function BookActions() {
+    const user = useUser();
+
     return (
         <div className="controls">
             {user.role === 'admin' && <button className="outline todo">Edit</button>}
