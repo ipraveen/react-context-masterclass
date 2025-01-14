@@ -1,14 +1,13 @@
 interface Props {
-    user: User;
 }
 
-export default function Avatar({ user }: Props) {
+export default function Avatar({  }: Props) {
     return (
         <div className="avatar todo">
-            <img src={user.avatar}></img>
+            <img src={""}></img>
             <div>
-                <label>{user.name}</label>
-                <small>@{user.userId}</small>
+                <label>{""}</label>
+                <small>@{""}</small>
             </div>
         </div>
     );

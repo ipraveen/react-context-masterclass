@@ -1,14 +1,13 @@
 import Avatar from './Avatar';
 
-interface Props{
-    user: User;
-}
-export default function Header({user}: Props) {
+interface Props {}
+
+export default function Header({}: Props) {
     return (
         <header>
             <div className="container">
-                <h1 className='logo'>Harry Potter Book Store</h1>
-                <Avatar user={user} />
+                <h1 className="logo">Harry Potter Book Store</h1>
+                <Avatar  />
             </div>
         </header>
     );
