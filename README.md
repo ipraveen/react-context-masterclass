@@ -11,3 +11,9 @@ In this masterclass, you'll learn:
 - Advanced techniques for optimizing performance and avoiding common pitfalls.
 
 By the end of this course, you'll have a solid understanding of how to leverage React Context to create dynamic, responsive, and maintainable applications. Let's get started on this exciting journey to mastering React Context! 🚀
+
+# Chapters
+1. [Start](https://github.com/ipraveen/react-context-masterclass/tree/standard-data-flow-start)
+1. [Revisit React unidirectional data flow](https://github.com/ipraveen/react-context-masterclass/tree/standard-data-flow-final)
+1. [React Context: Introduction](https://github.com/ipraveen/react-context-masterclass/tree/react-context-basic)
+1. [React Context: Advanced](https://github.com/ipraveen/react-context-masterclass/tree/react-context-advanced)
