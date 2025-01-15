@@ -1,0 +1,15 @@
+.notification {
+    background-color: aliceblue;
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    position: fixed;
+    z-index: 100;
+    transform: translateY(-100%);
+    transition: transform .6s;
+
+    &.show {
+        transform: translateY(0%);
+    }
+}

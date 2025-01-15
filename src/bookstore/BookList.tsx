@@ -9,12 +9,12 @@ export default function BookList({ books }: Props) {
     return (
         <ul className="books">
             {books.map(({ cover, title, description }) => (
-                <li className="book">
+                <li key={title} className="book">
                     <img src={cover} alt={title} />
                     <div className="content">
                         <h1>{title}</h1>
                         <p>{description}</p>
-                        <BookActions />
+                        <BookActions title={title}/>
                     </div>
                 </li>
             ))}
